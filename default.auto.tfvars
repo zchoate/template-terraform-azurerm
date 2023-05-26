@@ -1,0 +1,5 @@
+location = "eastus2"
+location_short = "eus2"
+project = ""
+project_short = ""
+environment = "dev"
