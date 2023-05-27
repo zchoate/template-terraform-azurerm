@@ -1,5 +1,6 @@
-location = "eastus2"
-location_short = "eus2"
-project = ""
-project_short = ""
-environment = "dev"
+// uncomment the values below
+# location = 
+# location_short = 
+# project = 
+# project_short = 
+# environment = 

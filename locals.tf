@@ -9,7 +9,7 @@ resource "random_string" "rand" {
 locals {
     resource_prefix_unclean = "${var.location_short}-${var.project_short}-${var.environment}-${random_string.rand.result}"
     resource_prefix = lower(local.resource_prefix_unclean)
-    tags = map({
+    tags = tomap({
         "project"   = var.project
     })
 }
